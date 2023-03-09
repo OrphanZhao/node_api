@@ -1,13 +1,6 @@
 const fs = require("fs");
 
-fs.readFile("./score.txt", "utf8", (err, data) => {
-  !err &&
-    fs.writeFile(
-      "./score_ok.txt",
-      data
-        .split(" ")
-        .map((v) => v.replace("=", ": "))
-        .join("\n"),
-      () => {}
-    );
-});
+/**
+ * 路径动态拼接问题
+ */
+fs.readFile("./score.txt", "utf8", (err, data) => console.log(err.message));
