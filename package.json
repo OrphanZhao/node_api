@@ -6,7 +6,11 @@
   "author": "orphanzhao <class_moon@163.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/moment": "^2.13.0",
     "@types/node": "^18.14.6",
     "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "moment": "^2.29.4"
   }
 }
