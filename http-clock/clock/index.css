@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.root {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  color: aqua;
+}
+/* 注释 */
