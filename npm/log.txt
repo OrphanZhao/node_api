@@ -16,3 +16,10 @@
 包管理分类
     项目包
     全局包
+
+包文件夹结构
+    单独的文件目录存在
+    顶级目录package.json
+    package.json 必须包含 `name` `version` `main`
+    
+     
