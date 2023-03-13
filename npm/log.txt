@@ -21,5 +21,10 @@
     单独的文件目录存在
     顶级目录package.json
     package.json 必须包含 `name` `version` `main`
-    
+
+终端登录npm账号
+    npm login
+    配置过镜像源的要注意、一定要登录到官方的网站、不要登录到淘宝的网站
+    npm publish 发布包
+    npm unpublish <包名称> --force 从npm删除已发布的包 72小时以内的准许删除 删除后24小时以内不能再次发布
      
